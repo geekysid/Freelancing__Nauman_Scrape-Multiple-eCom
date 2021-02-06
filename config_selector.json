@@ -1,0 +1,90 @@
+{
+    "pathToChromeDriver": "E:\\SIDDHANT\\Freelancing\\chromedriver",
+    "website": {
+        "bestwaywholesale": {
+            "url": "https://www.bestwaywholesale.co.uk/",
+            "categories": [
+                {
+                    "category": "grocery",
+                    "category_url": "https://www.bestwaywholesale.co.uk/grocery"
+                },
+                {
+                    "category": "drinks",
+                    "category_url": "https://www.bestwaywholesale.co.uk/soft-drinks"
+                },
+                {
+                    "category": "bread",
+                    "category_url": "https://www.bestwaywholesale.co.uk/bread-cakes"
+                },
+                {
+                    "category": "fresh food",
+                    "category_url": "https://www.bestwaywholesale.co.uk/chilled-fresh"
+                },
+                {
+                    "category": "frozen",
+                    "category_url": "https://www.bestwaywholesale.co.uk/frozen"
+                },
+                {
+                    "category": "offers",
+                    "category_url": "https://www.bestwaywholesale.co.uk/shop"
+                }
+            ],
+            "selectors": {
+                "home_page_load_wait": {
+                    "id": "main"
+                },
+                "item_per_page" : {
+                    "id": "records_per_page1"
+                },
+                "products_container": {
+                    "id": "shop-products"
+                },
+                "products": {
+                    "tag_name": "li"
+                },
+                "product_link_div": {
+                    "class": "prodimage"
+                },
+                "product_link": {
+                    "tag_name": "a"
+                },
+                "product_img": {
+                    "tag_name": "img"
+                },
+                "product_name": {
+                    "class": "prodname"
+                },
+                "product_sku": {
+                    "class": "prodsku"
+                },
+                "product_size": {
+                    "class": "prodsize"
+                },
+                "product_rsp": {
+                    "class": "prodrsp"
+                },
+                "product_promotion": {
+                    "class": "prodprom"
+                },
+                "individual_prod": {
+                    "class": "prodtable"
+                },
+                "indv_prod_image": {
+                    "id": "prodmagnify"
+                },
+                "indv_prod_desc_rows": {
+                    "tag_name": "tr"
+                },
+                "indv_prod_key": {
+                    "tag_name": "th"
+                },
+                "indv_prod_value": {
+                    "tag_name": "td"
+                },
+                "next_btn": {
+                    "class": "next"
+                }
+            }
+        }
+    }
+}
